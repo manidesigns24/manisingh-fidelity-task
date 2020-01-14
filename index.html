@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fidelity</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row custom-navbar">
+            <div class="col-md-4 col-sm-4 col-xs-12 text-left">
+                <a href="#"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 text-center">
+                <h3>Your Fidelity SIPP</h3>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 text-right">
+                <h4 class="page-head-right"><a href="#" class="main-page-option">Personal Investing</a></h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="full-detail-block">
+            <ul class="nav nav-tabs custom-nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#ay"><span>1</span><span>About you</span></a></li>
+                <li><a data-toggle="tab" href="#ct"><span>2</span><span>Contributions</span></a></li>
+                <li><a data-toggle="tab" href="#ra"><span>3</span><span>Review applications</span></a></li>
+                <li><a data-toggle="tab" href="#ps"><span>4</span><span>Payment setup</span></a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="ay" class="tab-pane fade in active">
+                    <div class="info-box">
+                        <h5>Your Personal Details</h5>
+                        <div class="px-10">
+                            <a class="my-15" href="#">How to change your persoanl details? <span><i class="fa fa-question-circle" aria-hidden="true"></i></span></a>
+
+                            <div class="my-20">
+                                <p class="quest">Are you a UK national only?<span>*</span></p>
+                                <form>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio" checked>Yes
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optradio">No
+                                    </label>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="option-block">
+
+                            <h6>Choose one of the option below:</h6>
+                            <div class="px-10">
+                                <div>
+                                    <form>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optradio" checked>I am a UK national and hold nationality with one or more other countries.</label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optradio">I am not a UK national</label>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="add-country-block">
+                                    <form>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                            <div class="input-group-btn">
+                                                <button class="btn btn-default" type="submit">
+                                                    Add Country
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="add-option-block">
+                                    <ul>
+                                        <li>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name="optradio" checked>Holland</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name="optradio">Poland</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name="optradio">Netherland</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+
+                            </div>
+                            <div class="col-md-6">
+                                <button class="custom-save-btn custom-btn custom-right-btn">Continue</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="ct" class="tab-pane fade">
+
+                    <p>Contributions</p>
+                </div>
+                <div id="ra" class="tab-pane fade">
+                    <p>Review application</p>
+                </div>
+                <div id="ps" class="tab-pane fade">
+                    <p>Payment setup</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                <button class="custom-blank-btn custom-btn">Reset</button>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                <button class="custom-discard-btn custom-btn">Exit</button>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
